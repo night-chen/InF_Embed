@@ -1,0 +1,87 @@
+# ================== General ==================
+# Operating Systems
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editors
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ================== Python Projects ==================
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ================== Node.js Projects ==================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================== Testing and Coverage ==================
+coverage/
+*.cover
+*.py,cover
+.cache/
+cache/
+nosetests.xml
+coverage.xml
+*.lcov
+htmlcov/
+
+# ================== Temporary Files ==================
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# ================== Executable Files ==================
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# ================== Git Backup Files ==================
+*.orig
+
+# ================== Custom Ignore Section ==================
+all_bright/
+all_bright_new/
+checkpoints/
+wandb/
+results/
+logs/
+data/
+all_bright_results/
+None/
